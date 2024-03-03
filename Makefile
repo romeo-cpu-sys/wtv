@@ -10,7 +10,7 @@ SRC_FILES := $(wildcard $(SRC_DIR)/*.c)
 OBJ_FILES := $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SRC_FILES))
 DEP_FILES := $(OBJ_FILES:.o=.d)
 
-EXECUTABLE := main.exe
+EXECUTABLE := my_program
 
 .PHONY: all clean
 
@@ -29,4 +29,3 @@ clean:
 	rm -rf $(BUILD_DIR) $(EXECUTABLE)
 
 -include $(DEP_FILES)
-
