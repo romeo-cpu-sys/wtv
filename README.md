@@ -3,11 +3,6 @@
 
 simple encrypt > decrypt using AES, written in c 
 
-## Features
-
-- Encrypt files using a specified encryption key
-- Supports symmetric encryption algorithms
-- Basic file input and output operations
 
 ## Usage
 
